@@ -1,0 +1,18 @@
+.nav {
+  background-color:rgba(248, 248, 248, 0.808);
+  width: 180px;
+  height: 1080px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+.nav i{
+  padding-right: 10px;
+}
