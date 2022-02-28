@@ -21,3 +21,7 @@ a:hover {
   padding: 16px;
   background-color: #FFF;
 }
+
+.marginLeft {
+  margin-left: 3px;
+}
