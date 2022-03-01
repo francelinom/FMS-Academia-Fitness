@@ -5,6 +5,7 @@
       <th scope="col">Nome</th>
       <th scope="col">Idade</th>
       <th scope="col">Endereço</th>
+      <th scope="col">Ações</th>
     </tr>
   </thead>
   <tbody>
@@ -13,6 +14,15 @@
       <td>{{cliente.nome}}</td>
       <td>{{cliente.idade}}</td>
       <td>{{cliente.endereco}}</td>
+      <td>
+        <button class="btn btn-outline-primary btn-sm m-1">
+          <i class="fa fa-edit"></i>
+        </button>
+        <button class="btn btn-outline-danger btn-sm">
+          <i class="fa fa-trash-o"></i>
+        </button>
+
+      </td>
     </tr>
   </tbody>
 </table>
