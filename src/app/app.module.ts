@@ -11,6 +11,7 @@ import { ClienteComponent } from './views/cliente/cliente.component';
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     NavComponent,
     ClienteComponent,
     ClienteCreateComponent,
+    ClienteListComponent,
   ],
   imports: [
     BrowserModule,
