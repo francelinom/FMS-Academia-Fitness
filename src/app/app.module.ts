@@ -12,6 +12,8 @@ import { ClienteCreateComponent } from './components/cliente/cliente-create/clie
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
+import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { ClienteListComponent } from './components/cliente/cliente-list/cliente-
     ClienteComponent,
     ClienteCreateComponent,
     ClienteListComponent,
+    ClienteUpdateComponent,
+    ClienteDeleteComponent,
   ],
   imports: [
     BrowserModule,

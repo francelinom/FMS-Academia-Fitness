@@ -15,12 +15,14 @@
       <td>{{cliente.idade}}</td>
       <td>{{cliente.endereco}}</td>
       <td>
-        <button class="btn btn-outline-primary btn-sm m-1">
+        <a class="btn btn-outline-primary btn-sm m-1" type="button"
+          routerLink="/clientes/update/{{cliente.id}}">
           <i class="fa fa-edit"></i>
-        </button>
-        <button class="btn btn-outline-danger btn-sm">
+        </a>
+        <a class="btn btn-outline-danger btn-sm" type="button"
+          routerLink="/clientes/delete/{{cliente.id}}">
           <i class="fa fa-trash-o"></i>
-        </button>
+        </a>
 
       </td>
     </tr>
