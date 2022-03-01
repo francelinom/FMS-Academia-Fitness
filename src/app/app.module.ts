@@ -10,6 +10,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { ClienteComponent } from './views/cliente/cliente.component';
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,13 @@ import { HttpClientModule } from '@angular/common/http';
     ClienteComponent,
     ClienteCreateComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HomeModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HomeModule,
+    HttpClientModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

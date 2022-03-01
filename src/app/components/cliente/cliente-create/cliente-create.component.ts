@@ -10,9 +10,9 @@ import { Router } from '@angular/router';
 })
 export class ClienteCreateComponent implements OnInit {
   cliente: Cliente = {
-    nome: 'Francelino',
-    idade: 32,
-    endereco: 'Rua Boa',
+    nome: '',
+    idade: null,
+    endereco: '',
   };
 
   constructor(private router: Router, private clienteService: ClienteService) {}

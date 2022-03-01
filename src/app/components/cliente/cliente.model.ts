@@ -1,6 +1,6 @@
 export interface Cliente {
   id?: number;
   nome?: string;
-  idade?: number;
+  idade?: number | null;
   endereco?: string;
 }
