@@ -9,10 +9,18 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { ClienteComponent } from './views/cliente/cliente.component';
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, ClienteComponent, ClienteCreateComponent],
-  imports: [BrowserModule, AppRoutingModule, HomeModule],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    ClienteComponent,
+    ClienteCreateComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, HomeModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
