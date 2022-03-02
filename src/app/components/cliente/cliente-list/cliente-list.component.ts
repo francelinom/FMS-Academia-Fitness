@@ -1,3 +1,4 @@
+import { HeaderService } from './../../template/header/header.service';
 import { ClienteService } from './../cliente.service';
 import { Cliente } from './../cliente.model';
 import { Component, OnInit } from '@angular/core';
@@ -10,7 +11,16 @@ import { Component, OnInit } from '@angular/core';
 export class ClienteListComponent implements OnInit {
   clientes!: Cliente[];
 
-  constructor(private clienteService: ClienteService) {}
+  constructor(
+    private clienteService: ClienteService,
+    private headerService: HeaderService
+  ) {
+    headerService.headerData = {
+      title: 'Lista de cliente',
+      icon: 'fa fa-eye',
+      routeUrl: '/clientes',
+    };
+  }
 
   ngOnInit(): void {
     this.clienteService.list().subscribe((clientes) => {

@@ -1,3 +1,4 @@
+import { HeaderService } from './../../template/header/header.service';
 import { Cliente } from './../cliente.model';
 import { ClienteService } from './../cliente.service';
 import { Component, OnInit } from '@angular/core';
@@ -15,7 +16,17 @@ export class ClienteCreateComponent implements OnInit {
     endereco: '',
   };
 
-  constructor(private router: Router, private clienteService: ClienteService) {}
+  constructor(
+    private router: Router,
+    private clienteService: ClienteService,
+    private headerService: HeaderService
+  ) {
+    headerService.headerData = {
+      title: 'Cadastrar cliente',
+      icon: 'fa fa-plus',
+      routeUrl: '/clientes/create',
+    };
+  }
 
   ngOnInit(): void {}
 
