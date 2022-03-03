@@ -1,27 +1,76 @@
 # FmsAcademiaFitness
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+<h1>
+  <img src="src/assets/img/tela1.png">
+  <img src="src/assets/img/tela2.png">
+  <img src="src/assets/img/tela3.png">
+  <img src="src/assets/img/tela4.png">
+</h1>
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Indice
 
-## Code scaffolding
+- [FmsAcademiaFitness](#fmsacademiafitness)
+  - [Indice](#indice)
+  - [Sobre](#sobre)
+  - [Funcionalidade da Aplicação](#funcionalidade-da-aplicação)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Como baixar o projeto](#como-baixar-o-projeto)
+  - [Autor](#autor)
+  
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Sobre 
 
-## Build
+O Projeto **Fms Academia Fitness** foi desenvolvido como parte de uma atividade da mentoria **Conquiste sua vaga** que tem o principal objetivo: Treinar o HTML, CSS, Bootstrap 5 e JavaScript/TypeScript e colocar em prática as melhores práticas do Angular, além de desenvolver/treinar o raciocínio lógico.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O projeto é um website simples onde o usuário pode cadastrar, visualizar, editar/atualizar, excluir (CRUD) de seus clientes de uma academia. As funcionalidade estão toda em acordo. O próximo passo será melhorar a aplicação e continuar desenvolvendo as melhores práticas.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Funcionalidade da Aplicação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A aplicação exemplo consiste em criar um simples gerenciador de clientes da academia
+com as seguintes funcionalidades:
+- Criar cliente para o sistema
+- Atualizar informações do usuário
+- Remover usuário
+- Listar todos os usuários
 
-## Further help
+---
+## Tecnologias utilizadas 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+- [Angular 12](https://angular.io/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- JavaScript
+- TypeScript
+- HTML
+- CSS
+
+---
+
+## Como baixar o projeto
+
+```bash
+# Clonar o repositório em sua máquina 
+$ git clone https://github.com/francelinom/FMS-Academia-Fitness-.git
+
+# Entrar na pasta do projeto 
+$ cd FMS-Academia-Fitness-
+
+# Instalar todas as dependências 
+$ npm i
+
+# Iniciar o projeto 
+$ ng serve
+```
+---
+## Autor
+
+Desenvolvido por **Francelino Marcílio da Silva** 
+<h1>
+  <img src="src/assets/img/eu.jpeg">
+</h1>
